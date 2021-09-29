@@ -3,7 +3,7 @@ import './Footer.css'
 
 export default function Footer() {
     return (
-        <div>
+        <div className='outer-div'>
 
             <footer class="footer-distributed">
 
@@ -23,16 +23,12 @@ export default function Footer() {
 
                         <a href="#">Blog</a>
 
-                        <a href="#">Pricing</a>
-
                         <a href="#">About</a>
 
                         <a href="#">Faq</a>
-
-                        <a href="#">Contact</a>
                     </p>
 
-                    <p>Company Name &copy; 2015</p>
+                    <p>Infinity app - CodeFellows - ASAC - LTUC &copy; 2021</p>
                 </div>
 
             </footer>

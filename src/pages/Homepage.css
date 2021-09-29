@@ -27,5 +27,21 @@
     transition: 0.3s
 }
 
+.card-title {
+    font-size: 30px;
+}
+
+.card {
+  margin: auto;
+  width: 70%;
+  align-items: 'center';
+}
+
+.card-img {
+  align-items: 'center' ;
+  /* padding-left: 100px; */
+}
+
+
 
 

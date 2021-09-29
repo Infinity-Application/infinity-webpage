@@ -1,0 +1,31 @@
+.card-columns {
+    @include media-breakpoint-only(lg) {
+      column-count: 4;
+    }
+    @include media-breakpoint-only(xl) {
+      column-count: 5;
+    }
+  }
+
+.left-body {
+    margin-top: 100px;
+}
+
+.left-body button {
+    width: 300px;
+    height: 70px;
+    background-color: #202020;
+    border-color: #dfdbdb;
+    transition: 0.3s;
+    font-size: 28px;
+}
+
+.left-body button:hover {
+    border-color: #f5b921;
+    background-color: #202020;
+    color: #f5b921;
+    transition: 0.3s
+}
+
+
+

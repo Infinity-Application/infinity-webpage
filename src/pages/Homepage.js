@@ -12,13 +12,13 @@ import { Link } from 'react-router-dom'
 
 export default function Homepage() {
   return (
-    <div style={{minHeight:440}}>
+    <div style={{ minHeight: 440 }}>
       <Row xs={1} md={2} className="g-4" style={{ backgroundColor: '#202020', width: '100%' }}>
         <Col>
           <Card style={{ backgroundColor: '#202020', border: 0 }}>
             <Card.Body className='left-body'>
               <Card.Title style={{ color: '#ffdd40' }}>#1 Crypto App in the Middle East</Card.Title>
-              <a href='https://www.google.com/'>
+              <a href='https://expo.dev/@abdelmajed/crypto-frontend-expo/'>
                 <Button variant="primary">
                   Launch app
                 </Button>
@@ -28,7 +28,7 @@ export default function Homepage() {
         </Col>
         <Col style={{ marginRight: 0 }}>
           <Card style={{ backgroundColor: '#202020', border: 0 }}>
-            <Card.Img src={logo} style={{ width: 400, border: 0}} />
+            <Card.Img src={logo} style={{ width: 400, border: 0 }} />
           </Card>
         </Col>
       </Row>
